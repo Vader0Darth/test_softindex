@@ -38,6 +38,7 @@ export const Form = () => {
       localStorage.setItem("model", JSON.stringify(model));
     });
   }
+  
   if (!isInit) {
     return <p>Wait...</p>;
   }
